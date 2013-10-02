@@ -1,0 +1,18 @@
+# jemdoc: addcss{person.css}, showsource
+= Jonathan A. DeCastro
+
+~~~
+{}{img_left}{portraitBW.jpg}{Decaz}{350}
+~~~
+
+I am a third-year Ph.D. Student in the [http://cornell-asl.org/ Autonomous Systems Laboratory] in the [http://www.mae.cornell.edu Sibley School of Mechanical and Aerospace Engineering] at [http://www.cornell.edu Cornell University].  My advisor is [http://www.verifiablerobotics.com Prof. Hadas Kress-Gazit].  I am interested in the synthesis of provably-correct controllers for complex robotic systems.  My work leverages a broad spectrum of ideas, including optimization, formal methods, and control systems. 
+
+== Publications
+JAD and Hadas Kress-Gazit, "Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics," International Conference on Intelligent Robots and Systems (IROS), 2013.
+
+== Contact Info
+127 Upson Hall\n
+Cornell University\n
+Ithaca, NY 14850\n
+jad455 - aght - cornell.edu
+
