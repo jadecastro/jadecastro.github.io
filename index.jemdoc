@@ -2,17 +2,31 @@
 = Jonathan A. DeCastro
 
 ~~~
-{}{img_left}{portraitBW.jpg}{Decaz}{350}
+{}{img_left}{portrait.jpg}{Decaz}{300}
 ~~~
 
-I am a third-year Ph.D. Student in the [http://cornell-asl.org/ Autonomous Systems Laboratory] in the [http://www.mae.cornell.edu Sibley School of Mechanical and Aerospace Engineering] at [http://www.cornell.edu Cornell University].  My advisor is [http://www.verifiablerobotics.com Prof. Hadas Kress-Gazit].  I am interested in the synthesis of provably-correct controllers for complex robotic systems.  My work leverages a broad spectrum of ideas, including optimization, formal methods, and control systems. 
+I am a third-year Ph.D. Student in the [http://cornell-asl.org/ Autonomous Systems Laboratory] in the [http://www.mae.cornell.edu Sibley School of Mechanical and Aerospace Engineering] at [http://www.cornell.edu Cornell University].  My advisor is [http://www.verifiablerobotics.com Prof. Hadas Kress-Gazit].  I am interested in the synthesis of provably-correct controllers for complex robotic systems.  My work leverages from a broad spectrum of ideas, including optimization, formal methods, and control systems. 
+
+Previous to my current position, I worked at [http://www.nasa.gov NASA] and [http://www.impact-tek.com Impact Tech] (now Sikorsky).
 
 == Publications
-JAD and Hadas Kress-Gazit, "Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics," International Conference on Intelligent Robots and Systems (IROS), 2013.
+JAD and Hadas Kress-Gazit, "Synthesis of Nonlinear Continuous Controllers for Verifiably-Correct High-Level, Reactive Behaviors," (in preparation).
+
+JAD and Hadas Kress-Gazit, "[DKG_IROS2013.pdf Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics]," International Conference on Intelligent Robots and Systems (IROS), 2013.
+
+== Teaching
+Instructor, [http://www.rit.edu Rochester Institute of Technology]
+- Systems Modeling, Winter 2010 – 2011
+
+== Education
+Ph.D., Aerospace Engineering, [http://www.cornell.edu Cornell University], 2016 (expected)
+- Minor in Computer Science
+
+B.S./M.S., Mechanical Engineering, [http://www.vt.edu Virginia Tech], 2003
 
 == Contact Info
 127 Upson Hall\n
 Cornell University\n
 Ithaca, NY 14850\n
-jad455 - aght - cornell.edu
+jad455 - at - cornell.edu
 
