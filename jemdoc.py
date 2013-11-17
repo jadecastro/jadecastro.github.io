@@ -202,6 +202,7 @@ def standardconf():
   <div class="menu-item"><a href="|1" class="current">|2</a></div>
   
   [nomenu]
+  <div id="page">
   <div id="layout-content">
   
   [menulastbit]
@@ -210,6 +211,7 @@ def standardconf():
   </table>
   
   [nomenulastbit]
+  </div>
   </div>
   
   [bodyend]
