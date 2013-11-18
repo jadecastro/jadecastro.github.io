@@ -11,10 +11,10 @@ Ph.D. Student\n
 
 I am a third-year Ph.D. Student in the [http://cornell-asl.org/ Autonomous Systems Laboratory] in [http://www.mae.cornell.edu Mechanical and Aerospace Engineering] at [http://www.cornell.edu Cornell University].  My advisor is [http://www.verifiablerobotics.com Prof. Hadas Kress-Gazit].  I am interested in the synthesis of provably-correct controllers for complex robotic systems.  My work draws from a broad spectrum of ideas, including optimization, hybrid systems, formal methods, and control systems. 
 
-Prior to Cornell and after receiving my B.S. and M.S. degrees at [http://www.vt.edu Virginia Tech], I spent several years in industry as an aerospace engineer at [http://www.nasa.gov NASA] and [http://www.impact-tek.com Impact Tech] (now Sikorsky).  While at NASA, I participated in the development of the software tool [http://www.grc.nasa.gov/WWW/cdtb/softwar C-MAPSS].
+Prior to Cornell and after receiving my B.S. and M.S. degrees at [http://www.vt.edu Virginia Tech], I spent several years in industry as an aerospace engineer at [http://www.nasa.gov NASA] and [http://www.impact-tek.com Impact Tech] (now Sikorsky).  While at NASA, I participated in the development of the software tool [http://www.grc.nasa.gov/WWW/cdtb/software C-MAPSS].
 
 == Publications
-JAD and Hadas Kress-Gazit, "Synthesis of Nonlinear Continuous Controllers for Verifiably-Correct High-Level, Reactive Behaviors," In review, 2014.
+JAD and Hadas Kress-Gazit, "[DKG_jnl2013.pdf Synthesis of Nonlinear Continuous Controllers for Verifiably-Correct High-Level, Reactive Behaviors]," In review, 2014.
 
 JAD and Hadas Kress-Gazit, "[DKG_IROS2013.pdf Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics]," International Conference on Intelligent Robots and Systems (IROS), Tokyo, Japan, 2013.
 
