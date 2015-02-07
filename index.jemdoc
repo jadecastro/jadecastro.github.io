@@ -7,6 +7,7 @@
 Ph.D. Candidate\n
 [http://www.mae.cornell.edu/ Sibley School of Mechanical and Aerospace Engineering]\n
 [http://www.cornell.edu/ Cornell University]\n\n
+{{<a href="https://scholar.google.com/citations?user=Pnbjx1AAAAAJ&hl=en"><img style="height:30px;" src="google-scholar.png"/></a>}} {{<a href="https://github.com/jadecastro/"><img style="height:30px;" src="GitHub_Logo.png"/></a>}} {{<a href="https://www.linkedin.com/profile/view?id=51936727&trk=spm_pic"><img style="height:30px;" src="LinkedIn.png"/></a>}} \n
 ~~~
 
 I am a Ph.D. Candidate in the [http://verifiablerobotics.com/ Verifiable Robotics Research Group] in [http://www.mae.cornell.edu Mechanical and Aerospace Engineering] at [http://www.cornell.edu Cornell University].  I am advised by [http://www.mae.cornell.edu/mae/people/profile.cfm?netid=hk478 Prof. Hadas Kress-Gazit].  I am interested in the synthesis of provably-correct controllers for dynamical systems and the automatic discovery of specification revisions for guaranteeing execution in dynamic environments.  My work draws from a broad spectrum of ideas, including optimization, hybrid systems, formal methods, and control systems. 
@@ -14,11 +15,11 @@ I am a Ph.D. Candidate in the [http://verifiablerobotics.com/ Verifiable Robotic
 Prior to Cornell and after receiving my B.S. and M.S. degrees at [http://www.vt.edu Virginia Tech], I spent several years in industry as an aerospace engineer at [http://www.nasa.gov NASA] and [http://www.impact-tek.com Impact Tech] (now Sikorsky).  While at NASA, I was part of the team that developed the software tool [http://www.grc.nasa.gov/WWW/cdtb/software C-MAPSS], winner of a Space Act Award and a NASA Group Achievement Award. 
 
 == Publications
-JAD and Hadas Kress-Gazit, "[DKG_IJRR2014.pdf Synthesis of Nonlinear Continuous Controllers for Verifiably-Correct High-Level, Reactive Behaviors]," International Journal of Robotics Research, Accepted. \[[DKG_IJRR2014.bib bib]\] \[[http://ijr.sagepub.com/content/early/2015/01/19/0278364914557736.full OnlineFirst]\]
+JAD and Hadas Kress-Gazit, "Synthesis of Nonlinear Continuous Controllers for Verifiably-Correct High-Level, Reactive Behaviors," International Journal of Robotics Research, Accepted. {{<a href="DKG_IJRR2014.pdf"><img style="height:15px;" src="pdf.png"/></a>}} \[[DKG_IJRR2014.bib bib]\] \[[http://ijr.sagepub.com/content/early/2015/01/19/0278364914557736.abstract OnlineFirst]\]
 
-JAD and Hadas Kress-Gazit, "[DKG_IROS2013.pdf Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics]," IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). Tokyo, Japan, 2013. \[[DKG_IROS2013.bib bib]\]
+JAD and Hadas Kress-Gazit, "Guaranteeing Reactive High-Level Behaviors for Robots with Complex Dynamics," IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). Tokyo, Japan, 2013. {{<a href="DKG_IROS2013.pdf"><img style="height:15px;" src="pdf.png"/></a>}} \[[DKG_IROS2013.bib bib]\]
 
-JAD, Ruediger Ehlers, Matthias Rungger, Ayca Balkan, Paulo Tabuada and Hadas Kress-Gazit, "[DERBTKG14.pdf Dynamics-Based Reactive Synthesis and Automated Revisions for High-Level Robot Control]," 2014 (submitted). \[[http://arxiv.org/abs/1410.6375 arXiv]\]
+JAD, Ruediger Ehlers, Matthias Rungger, Ayca Balkan, Paulo Tabuada and Hadas Kress-Gazit, "Dynamics-Based Reactive Synthesis and Automated Revisions for High-Level Robot Control," 2014 (submitted). {{<a href="DERBTKG14.pdf"><img style="height:15px;" src="pdf.png"/></a>}} \[[http://arxiv.org/abs/1410.6375 arXiv]\]
 
 JAD, Vasumathi Raman and Hadas Kress-Gazit, "Dynamics-Driven Adaptive Abstraction for Reactive High-Level Mission and Motion Planning," IEEE International Conference on Robotics and Automation. Seattle, WA, USA, 2015 (accepted).
 
