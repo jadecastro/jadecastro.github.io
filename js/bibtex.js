@@ -82,7 +82,7 @@ var bibtexs = new Array(
     "month = {August},",
     "address = {Denver, CO}",
     "}"
-    )
+    ),
 
   new Array(
     "@InProceedings{DAMRRKG_ISRR15,",
