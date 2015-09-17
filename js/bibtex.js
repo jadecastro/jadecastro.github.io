@@ -83,6 +83,17 @@ var bibtexs = new Array(
     "address = {Denver, CO}",
     "}"
     )
+
+  new Array(
+    "@InProceedings{DAMRRKG_ISRR15,",
+    "Author = {Jonathan A. DeCastro and Javier Alonso-Mora and Vasu Raman and Daniela Rus and Hadas Kress-Gazit},",
+    "Title = {Collision-Free Reactive Mission and Motion Planning for Multi-Robot Systems},",
+    "BookTitle = {Proceedings of the International Symposium on Robotics Research (ISRR)},",
+    "year = {2015},",
+    "month = {September},",
+    "address = {Sestri Levante, Italy}",
+    "}"
+    )
   );
 
 function OnBodyClick()
