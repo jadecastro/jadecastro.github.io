@@ -93,6 +93,17 @@ var bibtexs = new Array(
     "month = {September},",
     "address = {Sestri Levante, Italy}",
     "}"
+    ),
+
+    new Array(
+    "@InProceedings{DKG_HSCC16,",
+    "Author = {Jonathan A. DeCastro and Hadas Kress-Gazit},",
+    "Title = {Nonlinear Controller Synthesis and Automatic Workspace Partitioning for Reactive High-Level Behaviors},",
+    "BookTitle = {Proceedings of Hybrid Systems: Computation and Control (HSCC)},",
+    "year = {2016},",
+    "month = {April},",
+    "address = {Vienna, Austria}",
+    "}"
     )
   );
 
