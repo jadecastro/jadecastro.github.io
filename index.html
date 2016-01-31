@@ -229,7 +229,7 @@
                         <p>I have also developed a computational approach that leverages nonlinear systems theory to construct controllers and <em>regions of invariance</em> that respect the constraints of a nonlinear dynamical system in a highly-constrained workspace (e.g. one filled with many obstacles). </p>
 
                         <p>Sometimes the high-level controller produces behaviors that cannot be fulfilled at the low level.  The synthesis techniques have been extended in order to adapt the finite-state approximate model of the robot, or its <em>discrete abstraction</em>, greatly reducing the conservatism preventing such controllers to be synthesized.  Our approach adapts these abstractions only when necessary, thereby eliminating any unneeded computations in synthesis. </p>
-                        <p>Please see: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit (IROS 2013)</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit (IJRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit (ICRA 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
+                        <p>Please see: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit (IROS 2013)</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit (IJRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit (ICRA 2015)</a>] [<a href="DKG_HSCC2016_preprint.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
                       </div>
                     </div>
                   </td>
@@ -261,7 +261,7 @@
                         <p>When composing the specification for a task, a user must specify the desired robot behaviors along with any assumptions on the sensed environment – the latter are often difficult to predict and encode.  If such assumptions are too conservative, there may be no satisfying controller for certain types of dynamical systems (e.g. fixed-wing airplanes, quadrotors, cars).  In this light, my aim is to inform the user as to the conditions where the environment must cooperate with a certain robot in order to guarantee the success of the task. </p>
 
                         <p>Drawing from recent works in assumption mining in formal methods, we take a discrete representation of the <em>physics</em> of a robot, a logical task specification, and the workspace, then automatically generate a set of environment behaviors that must hold in order for there to exist a high-level controller for the task.  The resulting revisions are suggested to the user and, if accepted, become certificates that hold at runtime.  We have shown that our approach allows high-level controllers to be synthesized for a wide range of complicated tasks on realistic physical systems.</p>
-                        <p>Please see: [<a href="DERBTKG14.pdf">DeCastro, et. al.</a>] [<a href="">DeCastro, et. al. (ISRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
+                        <p>Please see: [<a href="DERBTKG14.pdf">DeCastro, et. al.</a>] [<a href="DAMRRKG_ISRR2015.pdf">DeCastro, et. al. (ISRR 2015)</a>] [<a href="DKG_HSCC2016_preprint.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
                       </div>
                     </div>
                   </td>
@@ -288,7 +288,7 @@
                         </div>
 
                         <p>In multi-robot scenarios operating in human environments, controller synthesis can quickly become intractible due to the exponential growth of complexity with the number of robots and dynamic obstacles present in the environment.  We are collaborating with MIT to form a high-level synthesis paradigm in which we use a local planner with collision avoidance guarantees at the low level, and a high-level controller to coordinate the actions of the robots.  To avoid complexity, we do not require observation of the global behavior of the dynamic obstacles; instead the controller reasons about behaviors of the dynamic obstacles locally, yet preserves global guarantees of task satisfaction.  Through experiments, we show that we can synthesize robot controllers that are lower in complexity than approaches in which all the obstacles are explicitly modeled. </p>
-                        <p>Please see: [<a href="">DeCastro, et. al. (ISRR 2015)</a>]</p>
+                        <p>Please see: [<a href="DAMRRKG_ISRR2015.pdf">DeCastro, et. al. (ISRR 2015)</a>]</p>
                       </div>
                     </div>
                   </td>
