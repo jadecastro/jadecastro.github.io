@@ -90,7 +90,7 @@
             <div class="col-xs-12" style="text-align: left; vertical-align: middle; margin-top: 20px;">
               <p>I am a Ph.D. Candidate in the <a href="http://verifiablerobotics.com/">Verifiable Robotics Research Group</a> in <a href="http://www.mae.cornell.edu">Mechanical and Aerospace Engineering</a> at <a href="http://www.cornell.edu">Cornell University</a>.  </p>
 
-              <p>My research interests are in the construction of provably-correct controllers for dynamical systems, enabling complex tasks to be verified for a wide class of complex robots. I am investigating both composition of continuous controllers for verified high-level control and the automatic discovery of specification revisions for guaranteeing controller execution in dynamic environments.  My work draws from a broad spectrum of ideas, including optimization, hybrid systems, formal methods, and control systems. </p>
+              <p>My research interests are in the construction of provably-correct controllers for dynamical systems, enabling complex tasks to be verified for a wide class of complex robots. My work spans two primary research thrusts: (1) computational approaches to synthesize continuous controllers for nonlinear systems that are verifed to fulfill for high-level control, and (2) automatic discovery of certificates for guaranteeing controller execution in dynamic environments.  The latter is meant to enable human-robot teams in order to guarantee tasks carried out using robots with dynamics.  My work draws from a broad spectrum of ideas, including optimization, hybrid systems, formal methods, and control systems. </p>
 
               <!-- <p>Prior to Cornell and after receiving my B.S. and M.S. degrees at <a href="http://www.vt.edu">Virginia Tech</a>, I spent several years in industry as an aerospace engineer at <a href="http://www.nasa.gov">NASA</a> and <a href="http://www.impact-tek.com">Impact Tech</a> (now Sikorsky).  While at NASA, I was part of the team that developed the software tool <a href="http://www.grc.nasa.gov/WWW/cdtb/software">C-MAPSS</a>, winner of a Space Act Award and a NASA Group Achievement Award. </p> -->
             </div>
@@ -147,7 +147,9 @@
               <div class="sec-header">
                 <h4 id="type">Preprints</h4>
               </div>
-              <p><strong>J. A. DeCastro</strong>, R. Ehlers, M. Rungger, A. Balkan, P. Tabuada and H. Kress-Gazit, &ldquo;Dynamics-Based Reactive Synthesis and Automated Revisions for High-Level Robot Control,&rdquo; (submitted). <a href="DERBTKG14.pdf"><img style="height:15px;" src="pdf.png"/></a>&nbsp; [<a href="http://arxiv.org/abs/1410.6375">arXiv</a>]</p>
+              <p><strong>J. A. DeCastro</strong>, R. Ehlers, M. Rungger, A. Balkan and H. Kress-Gazit, &ldquo;Automated Generation of Dynamics-Based Runtime Certificates for High-Level Control,&rdquo; (submitted) 2016.</p>
+
+              <p>J. Alonso-Mora, <strong>J. A. DeCastro</strong>, V. Raman, D. Rus and H. Kress-Gazit, &ldquo;Multi-Robot Reactive Mission and Motion Planing Among Dynamic Obstacles,&rdquo; (in preparation) 2016.</p>
 
               <br>
 
@@ -179,6 +181,13 @@
 
               <br>
 
+              <div class="sec-header">
+                <h4 id="type">Technical Reports</h4>
+              </div>
+              <p><strong>J. A. DeCastro</strong>, R. Ehlers, M. Rungger, A. Balkan, P. Tabuada and H. Kress-Gazit, &ldquo;Dynamics-Based Reactive Synthesis and Automated Revisions for High-Level Robot Control,&rdquo;. <a href="DERBTKG14.pdf"><img style="height:15px;" src="pdf.png"/></a>&nbsp; [<a href="http://arxiv.org/abs/1410.6375">arXiv</a>]</p>
+
+              <br>
+
             </div>
           </div>
         </div>
@@ -194,10 +203,11 @@
 
             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top: -30px;">
               <tbody>
+
                 <tr>
                   <td style="width: 360px; height: 420px;">
                     <div class="panel panel-default">
-                      <div class="panel-body" style="width: 360px; height: 420px; display:table-cell; vertical-align:middle;">
+                      <div class="panel-body" style="width: 360px; height: 450px; display:table-cell; vertical-align:middle;">
                         <div align="center">
                           <a href="funnels_adapt.jpg"><img src="funnels_adapt.jpg" alt="video" style="max-height: 100%; max-width: 100%;"></a><br>
                           <a href="inspection_task_traj.jpg"><img src="inspection_task_traj.jpg" alt="video" style="max-height: 100%; max-width: 60%;"></a>
@@ -206,46 +216,52 @@
                     </div>
                   </td>
 
-                  <!-- paper info. -->
                   <td style="height: 420px;">
                     <div class="panel panel-default" style="margin-left: 10px; margin-right: 0px;">
-                      <div class="panel-body" style="height: 420px; display:table-cell; vertical-align:middle;">
+                      <div class="panel-body" style="height: 450px; display:table-cell; vertical-align:middle;">
                         <div align="left">
-                          <h4 id="type">Techniques for Synthesizing High-Level, Reactive Controllers for Nonlinear Systems</h4>
+                          <h4 id="type">Automatic Synthesis High-Level, Reactive Controllers for Nonlinear Systems</h4>
                         </div>
 
                         <p><em><font color="blue">Can we automatically synthesize controllers for robots with real-world dynamics that are capable of fulfilling complex tasks in human environments?</font></em></p>
-                        <p>To answer this question, we adopt an approach for constructing a library of atomic controllers for a wide class of nonlinear systems such that, collectively, guarantee the sequence of motions as requested by the high-level controller (usually represented as a finite-state machine).  If the computation is successful, such high-level controllers are <em>correct by construction</em> with respect to the library of low-level controllers that are computed for the intended robot.  </p>
+                        <p>To answer this question, I have adopted an approach for constructing a library of atomic controllers for a wide class of nonlinear systems such that, collectively, guarantee the sequence of motions as requested by the high-level controller (usually represented as a finite-state machine).  If the computation is successful, such high-level controllers are <em>correct by construction</em> with respect to the library of low-level controllers that are computed for the intended robot.</p>
+
+                        <p>I have also developed a computational approach that leverages nonlinear systems theory to construct controllers and <em>regions of invariance</em> that respect the constraints of a nonlinear dynamical system in a highly-constrained workspace (e.g. one filled with many obstacles). </p>
+
                         <p>Sometimes the high-level controller produces behaviors that cannot be fulfilled at the low level.  The synthesis techniques have been extended in order to adapt the finite-state approximate model of the robot, or its <em>discrete abstraction</em>, greatly reducing the conservatism preventing such controllers to be synthesized.  Our approach adapts these abstractions only when necessary, thereby eliminating any unneeded computations in synthesis. </p>
-                        <p>Please see: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit, 2013</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit, 2015</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit, 2015</a>]</p>
+                        <p>Please see: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit (IROS 2013)</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit (IJRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit (ICRA 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
                       </div>
                     </div>
                   </td>
                 </tr>
 
                 <tr>
-                  <td style="width: 360px; height: 350px;">
+                  <td style="width: 360px; height: 420px;">
                     <div class="panel panel-default">
-                      <div class="panel-body" style="width: 360px; height: 350px; display:table-cell; vertical-align:middle;">
+                      <div class="panel-body" style="width: 360px; height: 450px; display:table-cell; vertical-align:middle;">
                         <div align="center">
                           <a href="feedback.jpg"><img src="feedback.jpg" alt="video" style="max-height: 100%; max-width: 100%;"></a>
+                          <a href="https://www.youtube.com/watch?v=1XEV0Ga3UEY"><img src="warehouse1.png" alt="video" style="max-height: 100%; max-width: 100%;"></a>
+                          <p>[<a href="https://www.youtube.com/watch?v=1XEV0Ga3UEY">Video link</a>]</p>
                         </div>
                       </div>
                     </div>
                   </td>
 
                   <!-- paper info. -->
-                  <td style="height: 350px;">
+                  <td style="height: 420px;">
                     <div class="panel panel-default" style="margin-left: 10px; margin-right: 0px;">
-                      <div class="panel-body" style="height: 350px; display:table-cell; vertical-align:middle;">
+                      <div class="panel-body" style="height: 450px; display:table-cell; vertical-align:middle;">
                         <div align="left">
-                          <h4 id="type">Automatically Generating User Feedback for Environment Assumptions</h4>
+                          <h4 id="type">Interactive Specification Design for Guaranteeing Tasks Carried Out by Robots with Dynamics</h4>
                         </div>
 
-                        <p>In reactive synthesis, the user must not only specify the desired robot behaviors, but also any assumptions on the sensed environment – the latter are often difficult to predict and encode. In this light, our aim is to inform the user as to the conditions where help is needed by the robot in order to guarantee the success of the task. </p>
+                        <p><em><font color="blue">In teams of people, individuals naturally adapt according to the capabilities of other teammates.  Can we establish human-robot teams that proceed without failure by giving the user full awareness of the robot's capability to perform a given task?</font></em></p>
 
-                        <p>Drawing from recent works in assumption mining in formal methods, we make use of environment counterstrategies to automatically revise the environment behaviors in cases where there exist no controllers that satisfy the specification. The resulting feedback may be interpreted as a <em>certificate</em> defining the minimal set of conditions of the teaming arrangement between the human and the robot for the specified task.</p>
-                        <p>Please see: [<a href="DERBTKG14.pdf">DeCastro, et. al. (submitted)</a>] [<a href="">DeCastro, et. al. (ISRR 2015 - accepted)</a>]</p>
+                        <p>When composing the specification for a task, a user must specify the desired robot behaviors along with any assumptions on the sensed environment – the latter are often difficult to predict and encode.  If such assumptions are too conservative, there may be no satisfying controller for certain types of dynamical systems (e.g. fixed-wing airplanes, quadrotors, cars).  In this light, my aim is to inform the user as to the conditions where the environment must cooperate with a certain robot in order to guarantee the success of the task. </p>
+
+                        <p>Drawing from recent works in assumption mining in formal methods, we take a discrete representation of the <em>physics</em> of a robot, a logical task specification, and the workspace, then automatically generate a set of environment behaviors that must hold in order for there to exist a high-level controller for the task.  The resulting revisions are suggested to the user and, if accepted, become certificates that hold at runtime.  We have shown that our approach allows high-level controllers to be synthesized for a wide range of complicated tasks on realistic physical systems.</p>
+                        <p>Please see: [<a href="DERBTKG14.pdf">DeCastro, et. al.</a>] [<a href="">DeCastro, et. al. (ISRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
                       </div>
                     </div>
                   </td>
@@ -257,7 +273,7 @@
                       <div class="panel-body" style="width: 360px; height: 320px; display:table-cell; vertical-align:middle;">
                         <div align="center">
                           <a href="https://youtu.be/esa3osYtvGA"><img src="avoidance_resolution.jpg" alt="video" style="max-height: 100%; max-width: 100%;"></a>
-                          <p>[<a href="https://youtu.be/esa3osYtvGA">video</a>]</p>
+                          <p>[<a href="https://youtu.be/esa3osYtvGA">Video link</a>]</p>
                         </div>
                       </div>
                     </div>
@@ -272,7 +288,7 @@
                         </div>
 
                         <p>In multi-robot scenarios operating in human environments, controller synthesis can quickly become intractible due to the exponential growth of complexity with the number of robots and dynamic obstacles present in the environment.  We are collaborating with MIT to form a high-level synthesis paradigm in which we use a local planner with collision avoidance guarantees at the low level, and a high-level controller to coordinate the actions of the robots.  To avoid complexity, we do not require observation of the global behavior of the dynamic obstacles; instead the controller reasons about behaviors of the dynamic obstacles locally, yet preserves global guarantees of task satisfaction.  Through experiments, we show that we can synthesize robot controllers that are lower in complexity than approaches in which all the obstacles are explicitly modeled. </p>
-                        <p>Please see: [<a href="">DeCastro, et. al. (ISRR 2015 - accepted)</a>]</p>
+                        <p>Please see: [<a href="">DeCastro, et. al. (ISRR 2015)</a>]</p>
                       </div>
                     </div>
                   </td>
