@@ -100,6 +100,7 @@ var bibtexs = new Array(
     "Author = {Jonathan A. DeCastro and Hadas Kress-Gazit},",
     "Title = {Nonlinear Controller Synthesis and Automatic Workspace Partitioning for Reactive High-Level Behaviors},",
     "BookTitle = {Proceedings of the 19th ACM International Conference on Hybrid Systems: Computation and Control (HSCC)},",
+    "doi = {10.1145/2883817.2883832},",
     "year = {2016},",
     "month = {April},",
     "address = {Vienna, Austria}",
