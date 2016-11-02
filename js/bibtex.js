@@ -1,8 +1,7 @@
 var link_clicked = 0;
 var bibtexs = new Array(
 
-// TODO: newest entries at bottom.
-// journals
+// Add newest entries at the bottom.
   new Array(
     "@ARTICLE{DKG_IJRR14,",
     "author = {Jonathan A.~DeCastro and Hadas Kress-Gazit},",
@@ -33,7 +32,6 @@ var bibtexs = new Array(
     "}"
     ),
 
-// conference papers
   new Array(
     "@INPROCEEDINGS{DRKG_ICRA15,",
     "author = {Jonathan A. DeCastro and Vasumathi Raman and Hadas Kress-Gazit},",
@@ -104,6 +102,15 @@ var bibtexs = new Array(
     "year = {2016},",
     "month = {April},",
     "address = {Vienna, Austria}",
+    "}"
+    ),
+    new Array(
+    "@ARTICLE{DERBKG_JDEDS14,",
+    "author = {Jonathan A.~DeCastro and Hadas Kress-Gazit},",
+    "title = {Automated Generation of Dynamics-Based Runtime Certificates for High-Level Control},",
+    "journal = {To appear in the Journal of Discrete Event Dynamical Systems: Special Topical Issue on Formal Methods in Control},",
+    "url = {http://www.springer.com/mathematics/applications/journal/10626},",
+    "year = 2017,"
     "}"
     )
   );
