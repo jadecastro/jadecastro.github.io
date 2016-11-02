@@ -93,7 +93,7 @@ var bibtexs = new Array(
     "}"
     ),
 
-    new Array(
+  new Array(
     "@InProceedings{DKG_HSCC16,",
     "Author = {Jonathan A. DeCastro and Hadas Kress-Gazit},",
     "Title = {Nonlinear Controller Synthesis and Automatic Workspace Partitioning for Reactive High-Level Behaviors},",
@@ -104,13 +104,14 @@ var bibtexs = new Array(
     "address = {Vienna, Austria}",
     "}"
     ),
-    new Array(
+  
+  new Array(
     "@ARTICLE{DERBKG_JDEDS14,",
     "author = {Jonathan A.~DeCastro and Hadas Kress-Gazit},",
     "title = {Automated Generation of Dynamics-Based Runtime Certificates for High-Level Control},",
     "journal = {To appear in the Journal of Discrete Event Dynamical Systems: Special Topical Issue on Formal Methods in Control},",
     "url = {http://www.springer.com/mathematics/applications/journal/10626},",
-    "year = 2017,"
+    "year = {2017}",
     "}"
     )
   );
