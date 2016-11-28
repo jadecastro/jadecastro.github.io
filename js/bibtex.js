@@ -107,15 +107,14 @@ var bibtexs = new Array(
   
   new Array(
     "@ARTICLE{DERBKG_JDEDS14,",
-    "author = {DeCastro, Jonathan and Ehlers, Ruediger and Rungger, Matthias and Balkan, Ayca and Kress-Gazit, Hadas},",
+    "author = {DeCastro, Jonathan and Ehlers, R{\"u}diger and Rungger, Matthias and Balkan, Ay{\c{c}}a and Kress-Gazit, Hadas},",
     "title = {Automated generation of dynamics-based runtime certificates for high-level control},",
     "journal = {Discrete Event Dynamic Systems},",
     "year = {2016},",
     "pages = {1--35},",
     "issn = {1573-7594},",
     "doi = {10.1007/s10626-016-0232-7},",
-    "url = {http://dx.doi.org/10.1007/s10626-016-0232-7}"
-}
+    "url = {http://dx.doi.org/10.1007/s10626-016-0232-7}",
     "}"
     )
   );
