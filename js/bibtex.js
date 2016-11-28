@@ -18,7 +18,7 @@ var bibtexs = new Array(
     ),
 
   new Array(
-    "@ARTICLE{DKG_IJRR14,",
+    "@ARTICLE{D_JPP07,",
     "author = {Jonathan A.~DeCastro},",
     "title = {Rate-Based Model Predictive Control of Turbofan Engine Clearance},",
     "journal = {Journal of Propulsion and Power},",
@@ -107,11 +107,15 @@ var bibtexs = new Array(
   
   new Array(
     "@ARTICLE{DERBKG_JDEDS14,",
-    "author = {Jonathan A.~DeCastro and Hadas Kress-Gazit},",
-    "title = {Automated Generation of Dynamics-Based Runtime Certificates for High-Level Control},",
-    "journal = {To appear in the Journal of Discrete Event Dynamical Systems: Special Topical Issue on Formal Methods in Control},",
-    "url = {http://www.springer.com/mathematics/applications/journal/10626},",
-    "year = {2017}",
+    "author = {DeCastro, Jonathan and Ehlers, R{\"u}diger and Rungger, Matthias and Balkan, Ay{\c{c}}a and Kress-Gazit, Hadas}",
+    "title = {Automated generation of dynamics-based runtime certificates for high-level control}",
+    "journal = {Discrete Event Dynamic Systems}",
+    "year = {2016}",
+    "pages = {1--35}",
+    "issn = {1573-7594}",
+    "doi = {10.1007/s10626-016-0232-7}",
+    "url = {http://dx.doi.org/10.1007/s10626-016-0232-7}"
+}
     "}"
     )
   );
