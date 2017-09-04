@@ -1,7 +1,8 @@
 var link_clicked = 0;
 var bibtexs = new Array(
 
-// Add newest entries at the bottom.
+    // Add newest entries at the bottom.
+    // 0
   new Array(
     "@ARTICLE{DKG_IJRR14,",
     "author = {Jonathan A.~DeCastro and Hadas Kress-Gazit},",
@@ -17,6 +18,7 @@ var bibtexs = new Array(
     "}"
     ),
 
+    // 1
   new Array(
     "@ARTICLE{D_JPP07,",
     "author = {Jonathan A.~DeCastro},",
@@ -32,6 +34,7 @@ var bibtexs = new Array(
     "}"
     ),
 
+    // 2
   new Array(
     "@INPROCEEDINGS{DRKG_ICRA15,",
     "author = {Jonathan A. DeCastro and Vasumathi Raman and Hadas Kress-Gazit},",
@@ -45,7 +48,8 @@ var bibtexs = new Array(
     "address = {Seattle, WA}",
     "}"
     ),
-  
+
+    // 3
   new Array(
     "@INPROCEEDINGS{DKG_IROS13,",
     "author = {Jonathan A. DeCastro and Hadas Kress-Gazit},",
@@ -60,28 +64,31 @@ var bibtexs = new Array(
     "}"
     ),
 
+    // 4
   new Array(
     "@InProceedings{DTZV_GNC11,",
-    "Author = {Jonathan A. DeCastro and Liang Tang and Bin Zhang and George Vachtsevanos},",
-    "Title = {A Safety Verification Approach to Fault-Tolerant Aircraft Supervisory Control},",
-    "BookTitle = {Proceedings of the AIAA Guidance, Navigation, and Control Conference},",
+    "author = {Jonathan A. DeCastro and Liang Tang and Bin Zhang and George Vachtsevanos},",
+    "title = {A Safety Verification Approach to Fault-Tolerant Aircraft Supervisory Control},",
+    "booktitle = {Proceedings of the AIAA Guidance, Navigation, and Control Conference},",
     "year = {2011},",
     "month = {August},",
     "address = {Portland, OR}",
     "}"
     ),
 
+    // 5
   new Array(
     "@InProceedings{DTBC_JPC09,",
-    "Author = {Jonathan A. DeCastro and Liang Tang and Carl S. Byington and Dennis E. Culley},",
-    "Title = {Analysis of Fault-Tolerance and Decentralization Concepts for Distributed Engine Control},",
-    "BookTitle = {Proceedings of the 45th AIAA Joint Propulsion Conference and Exhibit},",
+    "author = {Jonathan A. DeCastro and Liang Tang and Carl S. Byington and Dennis E. Culley},",
+    "title = {Analysis of Fault-Tolerance and Decentralization Concepts for Distributed Engine Control},",
+    "booktitle = {Proceedings of the 45th AIAA Joint Propulsion Conference and Exhibit},",
     "year = {2009},",
     "month = {August},",
     "address = {Denver, CO}",
     "}"
     ),
 
+    // 6
   new Array(
     "@InProceedings{DAMRRKG_ISRR15,",
     "Author = {Jonathan A. DeCastro and Javier Alonso-Mora and Vasu Raman and Daniela Rus and Hadas Kress-Gazit},",
@@ -91,8 +98,9 @@ var bibtexs = new Array(
     "month = {September},",
     "address = {Sestri Levante, Italy}",
     "}"
-    ),
+  ),
 
+    // 7
   new Array(
     "@InProceedings{DKG_HSCC16,",
     "Author = {Jonathan A. DeCastro and Hadas Kress-Gazit},",
@@ -103,21 +111,51 @@ var bibtexs = new Array(
     "month = {April},",
     "address = {Vienna, Austria}",
     "}"
-    ),
-  
+  ),
+
+    // 8
   new Array(
-    "@ARTICLE{DERBKG_JDEDS14,",
-    "author = {DeCastro, Jonathan and Ehlers, Ruediger and Rungger, Matthias and Balkan, Ayca and Kress-Gazit, Hadas},",
-    "title = {Automated generation of dynamics-based runtime certificates for high-level control},",
-    "journal = {Discrete Event Dynamic Systems},",
-    "year = {2016},",
-    "pages = {1--35},",
-    "issn = {1573-7594},",
-    "doi = {10.1007/s10626-016-0232-7},",
-    "url = {http://dx.doi.org/10.1007/s10626-016-0232-7}",
-    "}"
-    )
-  );
+      "@ARTICLE{DERBKG_JDEDS17,",
+      "author = {DeCastro, Jonathan and Ehlers, Ruediger and Rungger, Matthias and Balkan, Ayca and Kress-Gazit, Hadas},",
+      "title = {Automated generation of dynamics-based runtime certificates for high-level control},",
+      "journal = {Discrete Event Dynamic Systems},",
+      "year = {2017},",
+      "month = {June},",
+      "volume = {27},",
+      "number = {2},",
+      "pages = {371--405},",
+      "issn = {1573-7594},",
+      "doi = {10.1007/s10626-016-0232-7},",
+      "url = {http://dx.doi.org/10.1007/s10626-016-0232-7}",
+      "}"
+  ),
+
+    // 9
+  new Array(
+      "@Article{AMDRRKG_AURO2017,",
+      "author= {Alonso-Mora, Javier and DeCastro, Jonathan A. and Raman, Vasumathi and Rus, Daniela and Kress-Gazit, Hadas},",
+      "title={Reactive mission and motion planning with deadlock resolution avoiding dynamic obstacles},",
+      "journal={Autonomous Robots},",
+      "year={2017},",
+      "month={August},",
+      "issn={1573-7527},",
+      "doi={10.1007/s10514-017-9665-6},",
+      "url={https://doi.org/10.1007/s10514-017-9665-6}",
+      "}"
+  ),
+
+    // 10
+  new Array(
+      "@InProceedings{LSVDAMKR_ISRR17,",
+      "author = {Lucas Liebenwein and Wilko Schwarting and Cristian-Ioan Vasile and Jonathan DeCastro and Javier Alonso-Mora and Sertac Karaman and Daniela Rus},",
+      "title = {Compositional and Contract-based Verification for Autonomous Driving on Road Networks},",
+      "booktitle = {Proceedings of the International Symposium on Robotics Research (ISRR)},",
+      "year = {2017},",
+      "month = {December},",
+      "address = {Puerto Varas, Chile}",
+     "}"
+  )
+);
 
 function OnBodyClick()
 {
