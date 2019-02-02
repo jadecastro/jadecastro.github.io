@@ -154,7 +154,19 @@ var bibtexs = new Array(
       "month = {December},",
       "address = {Puerto Varas, Chile}",
      "}"
-  )
+  ),
+
+    // 11
+  new Array(
+      "@InProceedings{DLVTKR_WAFR2018,",
+      "author = {Jonathan DeCastro, Lucas Liebenwein, Cristian-Ioan Vasile, Russ Tedrake, Sertac Karaman, and Daniela Rus},",
+      "title = {Counterexample-Guided Safety Contracts for Autonomous Driving},",
+      "booktitle = {Proceedings of the 13th International Workshop on the Algorithmic Foundations of Robotics (WAFR)},",
+      "year = {2018},",
+      "month = {December},",
+      "address = {Merida, Mexico}",
+     "}"
+  ),
 );
 
 function OnBodyClick()
