@@ -167,6 +167,18 @@ var bibtexs = new Array(
       "address = {Merida, Mexico}",
      "}"
   ),
+
+    // 12
+  new Array(
+      "@InProceedings{DLAP_ISRR2020,",
+      "author = {Jonathan DeCastro, Karen Leung, Nikos Aréchiga, and Marco Pavone},",
+      "title = {Interpretable Policies from Formally-Specified Temporal Properties},",
+      "booktitle = {Proceedings of the 23rd IEEE International Conference on Intelligent Transportation Systems (ITSC)},",
+      "year = {2020},",
+      "month = {September},",
+      "address = {Virtual Conference}",
+     "}"
+  )
 );
 
 function OnBodyClick()
