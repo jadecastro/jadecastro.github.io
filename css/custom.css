@@ -12,11 +12,20 @@
   --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
   background: #ffffff;
   color: var(--text);
   font-family: var(--font-serif);
-  line-height: 1.6;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.container p {
+  font-size: 0.9rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,17 +89,18 @@ strong {
 }
 
 .sec-header h4 {
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-secondary);
-  border-bottom: none;
-  margin-top: 1.5rem;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
 }
 
-#type {
+.page-header #type {
   border-bottom: none;
 }
 
