@@ -119,7 +119,7 @@
           <h3 id="type">About me</h3>
         </div>
         <div align="justify">
-          <p>I am a Staff Research Scientist and research lead at the <a href="http://www.tri.global/">Toyota Research Institute</a> in Cambridge, MA, where I lead the Shared Decision-Making project: model-based reinforcement learning that assists humans in time-critical, high-speed shared-control settings. My research gives learning-based systems the <em>structure</em> &mdash; logical, game-theoretic, and control-theoretic &mdash; needed to behave safely and trustworthily when interacting with people, especially when human data is scarce. I received my Ph.D. in 2017 from <a href="http://www.cornell.edu">Cornell University</a> as an affiliate of the <a href="http://verifiablerobotics.com/">Verifiable Robotics Research Group</a>, where I worked with <a href="http://verifiablerobotics.com/people/pi">Prof. Hadas Kress-Gazit</a> on automated, correct-by-construction controller synthesis for complex robots.</p>
+          <p>I am a Staff Research Scientist and research lead at the <a href="http://www.tri.global/">Toyota Research Institute</a> in Cambridge, MA, where I lead the Shared Decision-Making project: model-based reinforcement learning that assists humans in time-critical, high-speed shared-control settings. My research gives learning-based systems logical, game-theoretic, and control-theoretic structure so they can behave safely and trustworthily around people, especially when human data is scarce. I received my Ph.D. in 2017 from <a href="http://www.cornell.edu">Cornell University</a> as an affiliate of the <a href="http://verifiablerobotics.com/">Verifiable Robotics Research Group</a>, where I worked with <a href="http://verifiablerobotics.com/people/pi">Prof. Hadas Kress-Gazit</a> on automated, correct-by-construction controller synthesis for complex robots.</p>
 
           <p>My research interests lie in the intersection of reinforcement learning, game theory, control theory and formal methods. I have a deep interest in the following topics: </p>
           <ul>
@@ -586,7 +586,7 @@
         </div>
 
         <div align="justify">
-          <p>A throughline across my work is giving learned policies verifiable, interpretable structure &mdash; logic monitors, signal temporal logic, control-barrier functions, safety contracts &mdash; so that learning-based systems remain safe and trustworthy under distribution shift and when human interaction data is scarce.</p>
+          <p>A throughline across my work is giving learned policies verifiable, interpretable structure through logic monitors, signal temporal logic, control-barrier functions, and safety contracts. This keeps learning-based systems safe and trustworthy under distribution shift and when human interaction data is scarce.</p>
           <p>Publications: [<strong>Learning an Interpretable Logic Monitor</strong> (IJRR 2025)] [<strong>Boundary Sampling for Predictive Safety Filters</strong> (2026)] [<a href="WAFR_2018.pdf">Counterexample-Guided Safety Contracts</a> (WAFR 2018)]</p>
         </div>
 
@@ -597,7 +597,7 @@
         </div>
 
         <div align="justify">
-          <p>Dynamic games, Nash equilibria, and opinion dynamics for split-second human-robot interaction, together with hierarchical RL-MPC for sample-efficient planning under partial observability of a human partner's intent.</p>
+          <p>Dynamic games, Nash equilibria, and opinion dynamics for split-second human-robot interaction, together with hierarchical RL-MPC for sample-efficient planning under partial observability of a human partner's intent. These models let an autonomous agent reason about how its actions influence a human partner's decisions, and vice versa, in real time.</p>
           <p>Publications: [<strong>Think Deep and Fast</strong> (ICRA 2025)] [<strong>Blending Data-Driven Priors in Dynamic Games</strong> (RSS 2024)] [<strong>Learning to Plan, Planning to Learn</strong> (L4DC 2026)]</p>
         </div>
 
@@ -608,7 +608,7 @@
         </div>
 
         <div align="justify">
-          <p>Preference learning, cognitive-bias inference, and computational teaching methods that personalize to individual humans without requiring large interaction datasets.</p>
+          <p>Preference learning, cognitive-bias inference, and computational teaching methods that personalize to individual humans without requiring large interaction datasets. The goal is to adapt quickly to a person's preferences and capabilities from a handful of interactions rather than extensive prior data collection.</p>
           <p>Publications: [<strong>Personalizing Driver Safety Interfaces</strong> (Nature Sci. Reports 2024)] [<strong>Estimating Cognitive Biases with Attention-Aware Inverse Planning</strong> (NeurIPS 2024)] [<strong>Computational Teaching for Driving</strong> (ICRA 2025)]</p>
         </div>
 
@@ -618,9 +618,7 @@
           <h4 id="type">Formally-Verified Contracts for Safe Deployment of Self-Driving Cars</h4>
         </div>
         <div align="justify">
-          <p>Verifying the safety of autonomous vehicles is paramount for their successful deployment.  However, formal verification of autonomous driving decision systems is computationally intractable.  At TRI, I have proposed, in conjunction with collaborators at MIT, a framework for constructing a set of safety contracts that serve as design requirements for controller synthesis for a given scenario.  Here, a <em>contract</em> is a sufficient condition that is placed at the interface of a controlled system (a controller for an autonomous driving system) that guarantees safety with respect to probabilistic models of traffic behavior in the face of additional requirements (e.g. rules of the road).</p>
-
-            <p>We automate the computation of contracts by combining gradient-based trajectory optimization and tractible reachable set computations.  In this work, we illustrate the utility of the contracts-based approach in an interacting multi-car traffic scenario, and have shown scalability by composing contracts together for wide array of maneuvers and road topologies.  We have furthermore analyzed the safety impact of relaxing certain traffic rules to overcome conservatism that arises when rigidly adhering to the rules of the road.</p>
+          <p>Verifying the safety of autonomous vehicles is paramount, but formal verification of autonomous driving decision systems is generally computationally intractable. With collaborators at MIT, I developed a framework for constructing safety contracts, sufficient conditions on a controller that guarantee safety with respect to probabilistic traffic models, and demonstrated the approach scaling across a range of multi-car scenarios and road topologies.</p>
 
           <p>Publications: [<a href="Compositional_ISRR2017.pdf">Liebenwein, et. al. (ISRR 2017)</a>] [<a href="WAFR_2018.pdf">DeCastro &amp Liebenwein, et. al. (WAFR 2019)</a>] [<a href="https://www.youtube.com/watch?v=gYcIK4oVtVM">video</a>]</p>
         </div>
@@ -645,9 +643,7 @@
             -->
 
         <div align="justify">
-          <p><em>Can we automatically synthesize controllers for robots with dynamics that are capable of fulfilling complex tasks in human environments?</em></p>
-          <p>The highlight of this work was an approach for constructing a library of controllers that, collectively, guarantee the sequence of motions as requested by the high-level controller (represented as a finite-state machine).  One important outcome is that the composition of the low-level controllers for individual behaviors preserve the correctness of the high-level specification under all possible environment behaviors. </p>
-          <p>This work included, among other aspects, transferring the high-level specification into sound mathematical structures for the low-level controllers, abstraction refinement, and specification repair (specifically, environment assumption refinement). </p>
+          <p>This work developed an approach for automatically synthesizing libraries of low-level controllers that, together, guarantee a high-level, temporal-logic specification for robots with complex dynamics. It included transferring the specification into sound mathematical structures for the low-level controllers, along with abstraction refinement and specification repair to keep controllers realizable under environment uncertainty.</p>
         </div>
 
         <!--
@@ -685,7 +681,7 @@
               <h4 id="type">Low-Complexity Synthesis for Multi-Robot Scenarios with Dynamic Obstacles</h4>
             </div>
             <div align="justify">
-              <p>In multi-robot scenarios operating in human environments, controller synthesis can quickly become intractible due to the exponential growth of complexity with the number of robots and dynamic obstacles present in the environment.  A high-level synthesis scheme that uses a local planner with local collision avoidance guarantees has been adopted to produce a mission planner that is able to correctly coordinate multiple robots in the presence of dynamic obstacles.  To avoid exponential complexity, we do not require observation of the global behavior of the dynamic obstacles; instead the controller reasons about behaviors of the dynamic obstacles locally, yet preserves global guarantees of task satisfaction.  We demonstrate the runtime features of the approach via experiments involving a heterogeneous team of robots. </p>
+              <p>Controller synthesis for multi-robot systems can become intractable as the number of robots and dynamic obstacles grows. I developed a high-level synthesis scheme using a local planner with collision-avoidance guarantees that coordinates multiple robots without observing the global behavior of dynamic obstacles, preserving correctness while avoiding this exponential blowup.</p>
               <p>Publications: [<a href="DAMRRKG_ISRR2015.pdf">DeCastro, et. al. (ISRR 2015)</a>] [<a href="https://youtu.be/esa3osYtvGA">video</a>]</p>
             </div>
 
