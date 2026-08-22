@@ -1,0 +1,124 @@
+/* Custom overrides layered on top of bootstrap + bootswatch.
+   Brings in the minimal-academic palette/typography: white bg, near-black
+   body text, a warm rust accent, Inter for UI/labels, Source Serif 4 for
+   headings and prose. */
+
+:root {
+  --text: #2d2d2d;
+  --text-secondary: #7a8288;
+  --accent: #a1553c;
+  --border: #e8e6e3;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+body {
+  background: #ffffff;
+  color: var(--text);
+  font-family: var(--font-serif);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+strong {
+  color: var(--text);
+}
+
+/* Navbar: flat, minimal, no bootswatch gradient/shadow */
+.navbar-default {
+  background-color: #ffffff;
+  background-image: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: var(--accent);
+  background-color: transparent;
+}
+
+/* Section headers */
+.page-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.page-header h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.sec-header h4 {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  border-bottom: none;
+  margin-top: 1.5rem;
+}
+
+#type {
+  border-bottom: none;
+}
+
+/* Bio / contact block */
+.contact-table {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+}
+
+.contact-table .glyphicon {
+  color: var(--text-secondary);
+}
+
+.socials-row img,
+.contact-table img {
+  transition: opacity 0.15s ease;
+}
+
+.contact-table a:hover img {
+  opacity: 0.7;
+}
+
+p {
+  color: var(--text);
+}
+
+footer, .copyright {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}

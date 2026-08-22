@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Jon DeCastro | Research Scientist, Toyota Research Institute </title>
+    <title>Jon DeCastro | Staff Research Scientist, Toyota Research Institute </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./css/bootswatch.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -52,6 +56,8 @@
 
             <li><a href="#research">Research</a></li>
 
+            <li><a href="#talks">Talks &amp; Workshops</a></li>
+
             <li><a href="#service">Service</a></li>
 
             <li><a href="decastro_cv.pdf">CV</a></li>
@@ -73,7 +79,7 @@
             <tr>
               <td><span class="glyphicon glyphicon-user"></span></td>
               <td class="left">
-                Research Scientist<br>
+                Staff Research Scientist &amp; Research Lead<br>
                 <a href="http://www.tri.global/">Toyota Research Institute</a><br>
               </td>
             </tr>
@@ -99,7 +105,7 @@
                   &nbsp;&nbsp;&nbsp;&nbsp;
                   <a href="https://github.com/jadecastro/"><img style="height:25px;" src="images/GitHub_Logo.png"/></a>
                   &nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="https://www.linkedin.com/pub/jonathan-decastro/15/487/b87"><img style="height:25px;" src="images/linkedin_icon.png"/></a>
+                  <a href="https://www.linkedin.com/in/jonathan-decastro-b8748715"><img style="height:25px;" src="images/linkedin_icon.png"/></a>
                   <br />
                 </p>
               </td>
@@ -113,11 +119,14 @@
           <h3 id="type">About me</h3>
         </div>
         <div align="justify">
-          <p>I am currently at the <a href="http://www.tri.global/">Toyota Research Institute</a> in Cambridge, MA.  I received my Ph.D. in 2017 from <a href="http://www.cornell.edu">Cornell University</a> as an affiliate of the <a href="http://verifiablerobotics.com/">Verifiable Robotics Research Group</a>, where I worked with <a href="http://verifiablerobotics.com/people/pi">Prof. Hadas Kress-Gazit</a> on automated, correct-by-construction controller synthesis for complex robots.  </p>
+          <p>I am a Staff Research Scientist and research lead at the <a href="http://www.tri.global/">Toyota Research Institute</a> in Cambridge, MA, where I lead the Shared Decision-Making project: model-based reinforcement learning that assists humans in time-critical, high-speed shared-control settings. My research gives learning-based systems the <em>structure</em> &mdash; logical, game-theoretic, and control-theoretic &mdash; needed to behave safely and trustworthily when interacting with people, especially when human data is scarce. I received my Ph.D. in 2017 from <a href="http://www.cornell.edu">Cornell University</a> as an affiliate of the <a href="http://verifiablerobotics.com/">Verifiable Robotics Research Group</a>, where I worked with <a href="http://verifiablerobotics.com/people/pi">Prof. Hadas Kress-Gazit</a> on automated, correct-by-construction controller synthesis for complex robots.</p>
 
-          <p>My research interests lie in the intersection of control theory, dynamical systems and formal methods.  I have a deep interest in the following topics: </p>
+          <p>My research interests lie in the intersection of reinforcement learning, game theory, control theory and formal methods. I have a deep interest in the following topics: </p>
           <ul>
+            <li>Human-AI collaboration and shared autonomy in time-critical, high-speed settings.</li>
+            <li>Game-theoretic and sequential decision-making models for human-robot interaction.</li>
             <li>Correct-by-construction synthesis of continuous controllers from temporal logic specifications.</li>
+            <li>Learning from scarce human data: preference learning, cognitive-bias inference, and personalization.</li>
             <li>Algorithms for falsification of interesting system properties, such as safety.</li>
             <li>Application of formal synthesis, verification, and falsification to robotics applications of all kinds.</li>
           </ul>
@@ -164,7 +173,7 @@
       <!--                 &nbsp;&nbsp;&nbsp;&nbsp;  -->
       <!--                 <a href="https://github.com/jadecastro/"><img style="height:25px;" src="images/GitHub_Logo.png"/></a> -->
       <!--                 &nbsp;&nbsp;&nbsp;&nbsp;  -->
-      <!--                 <a href="https://www.linkedin.com/pub/jonathan-decastro/15/487/b87"><img style="height:25px;" src="images/linkedin_icon.png"/></a> -->
+      <!--                 <a href="https://www.linkedin.com/in/jonathan-decastro-b8748715"><img style="height:25px;" src="images/linkedin_icon.png"/></a> -->
       <!--                 <br /> -->
       <!--               </p> -->
       <!--             </td> -->
@@ -196,9 +205,27 @@
             </div>
 
         <p>
-          <strong>Multiagent Behavior Modeling and Reasoning for Traffic Scenes via Topological Braids</strong> <br>
+          <strong>Learning an Interpretable Logic Monitor for Risk-Aware and Socially-Compliant Trajectory Planning</strong> <br>
+          Xiao Li, Jonathan DeCastro, Cristian-Ioan Vasile, Sertac Karaman and Daniela Rus <br>
+          International Journal of Robotics Research, 2025. <br>
+        </p>
+
+        <p>
+          <strong>Personalizing Driver Safety Interfaces via Driver Cognitive Factors Inference</strong> <br>
+          Emily Sumner, Jonathan DeCastro, et al. <br>
+          Nature Scientific Reports, 14(1):18058, 2024. <br>
+        </p>
+
+        <p>
+          <strong>A Safe Preference Learning Approach for Personalization With Applications to Autonomous Vehicles</strong> <br>
+          Ruya Karagulle, Nikos Aréchiga, Jonathan DeCastro and Necmiye Ozay <br>
+          IEEE Robotics and Automation Letters, 9(5):4226&ndash;4233, 2024. <br>
+        </p>
+
+        <p>
+          <strong>Abstracting Road Traffic via Topological Braids: Applications to Traffic Flow Analysis and Distributed Control</strong> <br>
           Christoforos Mavrogiannis, Jonathan DeCastro and Siddhartha Srinivasa
-          International Journal of Robotics Research, 2023. <br>
+          International Journal of Robotics Research, 43(9):1299&ndash;1321, 2024. <br>
           [<a href="https://journals.sagepub.com/doi/epub/10.1177/02783649231188740">pdf</a> | <a href="javascript:" onClick="bibtex_display(this,13);">bibtex</a> | <a href="https://journals.sagepub.com/eprint/63GURY74XGSCEBFW7VYH/full">link</a>]
         </p>
 
@@ -266,6 +293,77 @@
         <div class="sec-header">
           <h4 id="type">Peer-Reviewed Conference Papers</h4>
         </div>
+
+        <p>
+          <strong>Learning to Plan, Planning to Learn: Adaptive Hierarchical RL-MPC for Sample-Efficient Decision Making</strong> <br>
+          Toshiaki Hori, Jonathan DeCastro, Deepak Gopinath, Arun Balachandran and Guy Rosman
+          <br>
+          <strong>L4DC 2026</strong>: Learning for Dynamics &amp; Control Conference.
+        </p>
+
+        <p>
+          <strong>Timing the Message: Language-Based Notifications for Time-Critical Assistive Settings</strong> <br>
+          Y. C. Hsu, Jonathan DeCastro, Alexander Silva and Guy Rosman
+          <br>
+          <strong>AAMAS 2026</strong>: International Conference on Autonomous Agents and Multiagent Systems.
+        </p>
+
+        <p>
+          <strong>Computational Teaching for Driving via Multi-Task Imitation Learning</strong> <br>
+          Deepak Gopinath, Xiongyi Cui, Jonathan DeCastro, Emily Sumner, et al.
+          <br>
+          <strong>ICRA 2025</strong>: IEEE International Conference on Robotics and Automation, pp. 7019&ndash;7027.
+        </p>
+
+        <p>
+          <strong>Safety with Agency: Human-Centered Safety Filter with Application to AI-Assisted Motorsports</strong> <br>
+          Donggun D. Oh, Justin Lidard, Haimin Hu, et al., Jonathan DeCastro, Guy Rosman, Naomi Leonard and Jaime F. Fisac
+          <br>
+          <strong>RSS 2025</strong>: Robotics: Science and Systems.
+        </p>
+
+        <p>
+          <strong>Enhancing Trust Repair in Driving: The Role of AI Emotional Expression and Perceived Control</strong> <br>
+          Xiaozhen Hu, Lucas Dees, Deepak Gopinath, Alexander Silva, Jonathan DeCastro, Guy Rosman and Emily Sumner
+          <br>
+          <strong>ITSC 2025</strong>: IEEE 28th International Conference on Intelligent Transportation Systems.
+        </p>
+
+        <p>
+          <strong>Think Deep and Fast: Learning Neural Nonlinear Opinion Dynamics from Inverse Dynamic Games for Split-Second Interactions</strong> <br>
+          Haimin Hu, Jonathan DeCastro, Deepak Gopinath, Guy Rosman, Naomi E. Leonard and Jaime Fisac
+          <br>
+          <strong>ICRA 2025</strong>: IEEE International Conference on Robotics and Automation.
+        </p>
+
+        <p>
+          <strong>Estimating Cognitive Biases with Attention-Aware Inverse Planning</strong> <br>
+          Sreejan Banerjee, Daphne Cornelisse, Deepak Gopinath, Emily Sumner, Jonathan DeCastro, Guy Rosman, et al.
+          <br>
+          <strong>NeurIPS 2024</strong>: Advances in Neural Information Processing Systems, 38:14524&ndash;14550.
+        </p>
+
+        <p>
+          <strong>Dreaming to Assist: Learning to Align with Human Objectives for Shared Control in High-Speed Racing</strong> <br>
+          Jonathan DeCastro, Alexander Silva, Deepak Gopinath, Emily Sumner, Tucker Balch, Lucas Dees and Guy Rosman
+          <br>
+          <strong>CoRL 2024</strong>: 8th Conference on Robot Learning.
+          <!-- Flagship project -- add a video/demo link here once you have a shareable URL. -->
+        </p>
+
+        <p>
+          <strong>Incorporating Logic in Online Preference Learning for Safe Personalization of Autonomous Vehicles</strong> <br>
+          Ruya Karagulle, Necmiye Ozay, Nikos Aréchiga, Jonathan DeCastro and Andrew Best
+          <br>
+          <strong>HSCC 2024</strong>: 27th ACM International Conference on Hybrid Systems: Computation and Control, pp. 1&ndash;11.
+        </p>
+
+        <p>
+          <strong>Blending Data-Driven Priors in Dynamic Games</strong> <br>
+          Justin Lidard, Haimin Hu, Asher Hancock, Ziyi Zhang, Albert Gimó Contreras, Vikash Modi, Jonathan DeCastro, Deepak Gopinath, Guy Rosman, Naomi Leonard, Mario Santos and Jaime Fernández Fisac
+          <br>
+          <strong>RSS 2024</strong>: Robotics: Science and Systems.
+        </p>
 
         <!-- <p> -->
         <!--   <strong>Specification-Guided Data Aggregation for Semantically Aware Imitation Learning</strong> <br> -->
@@ -446,6 +544,40 @@
           <h4 id="type">Technical Reports</h4>
         </div>
         <p>
+          <strong>On the Strengths and Weaknesses of Data for Open-set Embodied Assistance</strong> <br>
+          Pradyumna Tambwekar, Alexander Silva, Deepak Gopinath, Jonathan DeCastro, Xiongyi Cui and Guy Rosman <br>
+          <strong>arXiv 2026</strong> <br>
+          [<a href="https://arxiv.org/abs/2603.04819">arXiv</a>]
+        </p>
+
+        <p>
+          <strong>Spatio-Temporal Retrieval-based Priors for Adaptive Computational Teaching in Driving</strong> <br>
+          Deepak Gopinath, Xiongyi Cui, Jonathan DeCastro, Arun Balachandran and Guy Rosman <br>
+          <strong>arXiv 2026</strong> <br>
+          [<a href="https://arxiv.org/abs/2606.25224">arXiv</a>]
+        </p>
+
+        <p>
+          <strong>Boundary Sampling to Learn Predictive Safety Filters via Pontryagin&rsquo;s Maximum Principle</strong> <br>
+          Jason Dallas, Thomas Lew, Jenny Talbot, Jonathan DeCastro, Somil Bansal and John Subosits <br>
+          <strong>arXiv 2026</strong> <br>
+          [<a href="https://arxiv.org/abs/2604.13325">arXiv</a>]
+        </p>
+
+        <p>
+          <strong>Specification-Guided Data Aggregation for Semantically Aware Imitation Learning</strong> <br>
+          Ameesh Shah, Jonathan DeCastro, John Gideon, Guy Rosman and Sanjit Seshia <br>
+          <strong>In review, 2023</strong> <br>
+        </p>
+
+        <p>
+          <strong>NashFormer: Leveraging Local Nash Equilibria for Semantically Diverse Trajectory Prediction</strong> <br>
+          Justin Lidard, Oswin So, Yanxia Zhang, Jonathan DeCastro, Xiongyi Cui, Xin Huang and Guy Rosman <br>
+          <strong>arXiv 2023</strong> <br>
+          [<a href="https://arxiv.org/abs/2305.17600">arXiv</a>]
+        </p>
+
+        <p>
           <strong>Learning Latent Traits for Simulated Cooperative Driving Tasks</strong> <br>
           Jonathan A. DeCastro, Deepak Gopinath, Guy Rosman, Emily Sumner, Shabnam Hakimi and Simon Stent <br>
           <strong>CoRR 2022</strong> <br>
@@ -471,30 +603,64 @@
         </div>
 
         <div align="left">
-          <h4 id="type">Formally-Verified Contracts for Safe Deployment of Self-Driving Cars</h4>
-        </div>
-        <div class="wrapper">
-          <a href="https://www.youtube.com/watch?v=gYcIK4oVtVM"><img class="img-thumbnail" src="images/compositional_contracts.png" alt="video" style="max-height: 40%; max-width: 40%; float: left; margin-right: 20px"></img></a>
+          <h4 id="type">Shared Autonomy &amp; Human-AI Teaming</h4>
         </div>
 
+        <div align="justify">
+          <p>I lead TRI's Shared Decision-Making project, developing model-based reinforcement learning (Dreamer) to assist humans in time-critical, high-speed shared-control settings. We deployed a shared-control system on a real-time, human-in-the-loop simulator and demonstrated it live with human drivers, including on-track sessions at Thunderhill Raceway, extending the work to a VR-based driving rig and TRI's Global Research Innovation Platform (GRIP) drivable test bench.</p>
+          <p>Publications: [<strong>Dreaming to Assist</strong> (CoRL 2024)] [<strong>Safety with Agency</strong> (RSS 2025)] [<strong>Timing the Message</strong> (AAMAS 2026)]</p>
+        </div>
+
+        <br>
+
+        <div align="left">
+          <h4 id="type">Structure for Learning: Formal Methods Meet Reinforcement Learning</h4>
+        </div>
+
+        <div align="justify">
+          <p>A throughline across my work is giving learned policies verifiable, interpretable structure &mdash; logic monitors, signal temporal logic, control-barrier functions, safety contracts &mdash; so that learning-based systems remain safe and trustworthy under distribution shift and when human interaction data is scarce.</p>
+          <p>Publications: [<strong>Learning an Interpretable Logic Monitor</strong> (IJRR 2025)] [<strong>Boundary Sampling for Predictive Safety Filters</strong> (2026)] [<a href="WAFR_2018.pdf">Counterexample-Guided Safety Contracts</a> (WAFR 2018)]</p>
+        </div>
+
+        <br>
+
+        <div align="left">
+          <h4 id="type">Game-Theoretic &amp; Sequential Decision-Making</h4>
+        </div>
+
+        <div align="justify">
+          <p>Dynamic games, Nash equilibria, and opinion dynamics for split-second human-robot interaction, together with hierarchical RL-MPC for sample-efficient planning under partial observability of a human partner's intent.</p>
+          <p>Publications: [<strong>Think Deep and Fast</strong> (ICRA 2025)] [<strong>Blending Data-Driven Priors in Dynamic Games</strong> (RSS 2024)] [<strong>Learning to Plan, Planning to Learn</strong> (L4DC 2026)]</p>
+        </div>
+
+        <br>
+
+        <div align="left">
+          <h4 id="type">Learning from Scarce Human Data</h4>
+        </div>
+
+        <div align="justify">
+          <p>Preference learning, cognitive-bias inference, and computational teaching methods that personalize to individual humans without requiring large interaction datasets.</p>
+          <p>Publications: [<strong>Personalizing Driver Safety Interfaces</strong> (Nature Sci. Reports 2024)] [<strong>Estimating Cognitive Biases with Attention-Aware Inverse Planning</strong> (NeurIPS 2024)] [<strong>Computational Teaching for Driving</strong> (ICRA 2025)]</p>
+        </div>
+
+        <br>
+
+        <div align="left">
+          <h4 id="type">Formally-Verified Contracts for Safe Deployment of Self-Driving Cars</h4>
+        </div>
         <div align="justify">
           <p>Verifying the safety of autonomous vehicles is paramount for their successful deployment.  However, formal verification of autonomous driving decision systems is computationally intractable.  At TRI, I have proposed, in conjunction with collaborators at MIT, a framework for constructing a set of safety contracts that serve as design requirements for controller synthesis for a given scenario.  Here, a <em>contract</em> is a sufficient condition that is placed at the interface of a controlled system (a controller for an autonomous driving system) that guarantees safety with respect to probabilistic models of traffic behavior in the face of additional requirements (e.g. rules of the road).</p>
 
             <p>We automate the computation of contracts by combining gradient-based trajectory optimization and tractible reachable set computations.  In this work, we illustrate the utility of the contracts-based approach in an interacting multi-car traffic scenario, and have shown scalability by composing contracts together for wide array of maneuvers and road topologies.  We have furthermore analyzed the safety impact of relaxing certain traffic rules to overcome conservatism that arises when rigidly adhering to the rules of the road.</p>
 
-          <p>Publications: [<a href="Compositional_ISRR2017.pdf">Liebenwein, et. al. (ISRR 2017)</a>] [<a href="WAFR_2018.pdf">DeCastro &amp Liebenwein, et. al. (WAFR 2019)</a>] </p>
+          <p>Publications: [<a href="Compositional_ISRR2017.pdf">Liebenwein, et. al. (ISRR 2017)</a>] [<a href="WAFR_2018.pdf">DeCastro &amp Liebenwein, et. al. (WAFR 2019)</a>] [<a href="https://www.youtube.com/watch?v=gYcIK4oVtVM">video</a>]</p>
         </div>
 
         <br>
 
         <div align="left">
           <h4 id="type">Automatic Synthesis of High-Level, Reactive Controllers for Nonlinear Systems</h4>
-        </div>
-
-        <div class="wrapper">
-          <!-- <img class="img-thumbnail" src="images/feedback.jpg" alt="video" style="max-height: 40%; max-width: 40%; float:left"></img> -->
-          <a href="https://www.youtube.com/watch?v=1XEV0Ga3UEY"><img class="img-thumbnail" src="images/warehouse1.png" alt="video" style="max-height: 40%; max-width: 40%; float: left; margin-right: 20px"></img></a>
-          <!-- <p>[<a href="https://www.youtube.com/watch?v=1XEV0Ga3UEY">Video link</a>]</p> -->
         </div>
 
         <!--
@@ -523,7 +689,7 @@
             <!--
                 <p>Sometimes the high-level controller produces behaviors that cannot be fulfilled at the low level.  The synthesis techniques have been extended in order to adapt the finite-state approximate model of the robot, or its <em>discrete abstraction</em>, greatly reducing the conservatism preventing such controllers to be synthesized.  Our approach adapts these abstractions only when necessary, thereby eliminating any unneeded computations in synthesis. </p>
                 -->
-        <p>Publications: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit (IROS 2013)</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit (IJRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit (ICRA 2015)</a>] [<a href="DKG_HSCC2016.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>]</p>
+        <p>Publications: [<a href="DKG_IROS2013.pdf">DeCastro &amp; Kress-Gazit (IROS 2013)</a>] [<a href="DKG_IJRR2014.pdf">DeCastro &amp; Kress-Gazit (IJRR 2015)</a>] [<a href="DRKG_ICRA2015.pdf">DeCastro, Raman &amp; Kress-Gazit (ICRA 2015)</a>] [<a href="DKG_HSCC2016.pdf">DeCastro &amp; Kress-Gazit (HSCC 2016)</a>] [<a href="https://www.youtube.com/watch?v=1XEV0Ga3UEY">video</a>]</p>
 
         <!-- paper info. -->
         <!--
@@ -550,28 +716,10 @@
             <div align="left">
               <h4 id="type">Low-Complexity Synthesis for Multi-Robot Scenarios with Dynamic Obstacles</h4>
             </div>
-            <div class="wrapper">
-              <a href="https://youtu.be/esa3osYtvGA"><img class="img-thumbnail" src="images/avoidance_resolution.jpg" alt="video" style="max-height: 40%; max-width: 40%; float: left; margin-right: 20px"></img></a>
-            </div>
-
             <div align="justify">
               <p>In multi-robot scenarios operating in human environments, controller synthesis can quickly become intractible due to the exponential growth of complexity with the number of robots and dynamic obstacles present in the environment.  A high-level synthesis scheme that uses a local planner with local collision avoidance guarantees has been adopted to produce a mission planner that is able to correctly coordinate multiple robots in the presence of dynamic obstacles.  To avoid exponential complexity, we do not require observation of the global behavior of the dynamic obstacles; instead the controller reasons about behaviors of the dynamic obstacles locally, yet preserves global guarantees of task satisfaction.  We demonstrate the runtime features of the approach via experiments involving a heterogeneous team of robots. </p>
-              <p>Publications: [<a href="DAMRRKG_ISRR2015.pdf">DeCastro, et. al. (ISRR 2015)</a>]</p>
+              <p>Publications: [<a href="DAMRRKG_ISRR2015.pdf">DeCastro, et. al. (ISRR 2015)</a>] [<a href="https://youtu.be/esa3osYtvGA">video</a>]</p>
             </div>
-
-        <br>
-
-        <div align="left">
-          <h4 id="type">Simulation Tools for Aircraft Control Systems </h4>
-        </div>
-        <div class="wrapper">
-          <img class="img-thumbnail" src="images/airplane.jpg" alt="video" style="max-height: 40%; max-width: 40%; float: left; margin-right: 20px"></img>
-        </div>
-
-        <div align="justify">
-          <p>I was part of a team at NASA dedicated to developing the software tool <a href="https://software.nasa.gov/software/LEW-18315-2">C-MAPSS</a>, a &ldquo;virtual&rdquo; aircraft engine.  The tool has become widely popular among resesarchers for prototyping control algorithms and use as a testbed for simulation-in-the-loop experiments. I have partipated in several research projects involving C-MAPSS, such as developing fault-tolerant control algorithms, developing nonlinear fault detection algorithms, and simulator-in-the-loop experiments with flightworthy hardware. </p>
-          <p>Publications: [DeCastro, et. al. (2011)]</p>
-        </div>
 
         <!-- An alternate style -->
         <!--
@@ -597,32 +745,54 @@
       </div>
 
     <div class="row">
+      <div class="page-header" id="talks">
+        <h3 id="type">Talks &amp; Workshops</h3>
+      </div>
+
+      <p><strong>From Co-Play to Co-Driving: Partner-Coupled Planning in Time-Critical Human-Autonomy Teams</strong> <br>
+        Leveraging Behavioral Models in Human-Autonomy Teams: From Theory to Applied Socio-Technical Systems, IROS 2026, Pittsburgh, PA, September 2026.</p>
+
+      <p><strong>Planning Through the Partner: Joint World Models of Physics and Intent under Imperfect Observation</strong> <br>
+        Planning and Control with Imperfect Sensors and Perception, RSS 2026, Sydney, Australia, July 2026. Role: Speaker and Panelist.
+        <!-- video confirmed to exist for this talk -- drop the link in below: -->
+        <!-- [<a href="PASTE_URL_HERE">video</a>] -->
+      </p>
+
+      <p><strong>Shared Decision Making: Partner-Aware Planning When Interactive Human Data is Scarce</strong> <br>
+        Learning for Dynamics &amp; Control Conference (L4DC), University of Southern California, 2026. Role: Industry Spotlight Speaker.</p>
+
+      <p><strong>Toward Verifiable Human Interaction</strong> <br>
+        Formal Verification of Control Systems with Neural Network Components, ACC 2025, Denver, CO, July 2025. Role: Invited Keynote Speaker.</p>
+
+      <p><strong>Correctness, Safety, and Alignment in Human-Centric Applications</strong> <br>
+        <a href="https://www.dagstuhl.de/24361">Dagstuhl Seminar 24361</a>: AI and Formal Methods Join Forces for Reliable Autonomy, Schloss Dagstuhl, September 2024. Role: Invited Participant.</p>
+
+      <p><strong>Learning Descriptions of Risky Human Behavior using Temporal Logics</strong> <br>
+        Safe and Reliable Robot Autonomy under Uncertainty, ICRA 2022, May 2022. Host: Glen Chou.</p>
+
+      <p><strong>Formally-Specifiable Agent Behavior Models for Autonomous Vehicle Test Generation</strong> <br>
+        Automation and Test in Europe Conference (DATE 2020), March 2020. Hosts: Jyotirmoy Deshmukh and Nikos Aréchiga.</p>
+
+      <p><strong>Simulation and Verification for Autonomous Vehicles in Traffic Scenarios</strong> <br>
+        NSF ExCAPE Annual Meeting, U. Penn, June 2017. Host: Rajeev Alur.</p>
+
+      <p><strong>Guaranteeing Reactive Missions for Complex Robots</strong> <br>
+        Invited Seminar Speaker, NASA Jet Propulsion Laboratory, December 2015; MIT Lincoln Laboratory, November 2015.</p>
+
+      <p><strong>Generalized Collision-Free Reactive Mission and Motion Planning for Multi-Robot Systems</strong> <br>
+        NSF ExCAPE Annual Meeting, MIT, June 2015. Host: Armando Solar-Lezama.</p>
+
+    </div>
+
+    <div class="row">
       <div class="page-header" id="service">
         <h3 id="type">Service</h3>
       </div>
 
-      <p><strong>Program Committee Member:</strong> Hybrid Systems: Computation and Control (HSCC), <a href="https://www.hscc2018.deib.polimi.it/">2018</a> | <a href="http://hscc2019.eecs.umich.edu">2019</a> </p>
       <p><strong>Workshop Organizer:</strong> “Command Your Own Robot”, <a href="https://www.eyh.cornell.edu/">Expanding Your Horizons Conference</a> (Cornell U.), 2014 | 2015</p>
-      <p><strong>Mentor:</strong> <a href="https://softroboticstoolkit.com/competitions/2015">Soft Robotics Design Competition</a> (two teams), 2015
-        <ul>
-          <li>First Prize (out of 82 teams)</li>
-          <li>Honorable Mention for outstanding project idea</li>
-        </ul>
-      </p>
-      <p><strong>Voting Member:</strong> <a href="https://assembly.cornell.edu/shared-governance-cornell/graduate-and-professional-student-assembly">Cornell Graduate and Professional Student Assembly</a>, 2013 | 2014</p>
+      <p><strong>Workshop Co-Organizer:</strong> “Transforming Specifications into Robot Programs: A Survey of Formal Methods Tools for Non-Experts”, 2021</p>
+      <p><strong>Ph.D. Thesis Committee Member:</strong> Ruya Karagulle, University of Michigan, 2025&ndash;2026 | Abolfazl (Abel) Karimi, University of North Carolina, 2022&ndash;2024</p>
       <p><strong>Course Instructor:</strong> "Systems Modeling", <a href="http://www.rit.edu/">Rochester Institute of Technology</a>, Winter 2010-2011</p>
-      <p><strong>Reviewer</strong>
-        <ul>
-          <li><a href="http://www.ieee-ras.org/publications/ra-l">Robotics and Automation Letters (RA-L)</a>, 2018 | 2020</li>
-          <li><a href="http://www.ieee-ras.org/publications/t-ro">IEEE Transactions on Robotics (T-RO)</a>, 2016 | 2018</li>
-          <li>International Conference on Intelligent Robots and Systems (IROS), <a href="http://www.iros2016.org/">2016</a> | <a href="https://www.iros2018.org/">2018</a> | <a href="https://www.iros2019.org/">2019</a> </li>
-          <li>International Conference on Robotics and Automation (ICRA), <a href="http://www6.cityu.edu.hk/icra2014/">2014</a> | <a href="http://www.icra2015.org/">2015</a> | <a href="http://www.icra2017.org/">2017</a> | <a href="https://icra2018.org/">2018</a> | <a href="http://www.icra2020.org/">2020</a></li>
-          <li>IEEE Conf. on Event-Based Control, Communication, and Signal Processing (EBCCSP), <a href="http://home.agh.edu.pl/~ebccsp15/">2015</a></li>
-          <li>American Control Conference (ACC), <a href="http://acc2014.a2c2.org/">2014</a></li>
-          <li><a href="http://www.ieee-ies.org/pubs/transactions-on-industrial-electronics">IEEE Transactions on Industrial Electronics</a>, 2013</li>
-          <li>ASME Turbo Expo, <a href="https://www.asmeconferences.org/te10/">2010</a></li>
-        </ul>
-      </p>
     </div>
 
       <!--
@@ -647,7 +817,7 @@
         <!-- <p>Created with <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>.</p> -->
 
         <div style="text-align: right">
-          <span class="copyright">Copyright &copy; 2019 Jonathan DeCastro.</span>
+          <span class="copyright">Copyright &copy; 2026 Jonathan DeCastro.</span>
         </div>
       </footer>
 

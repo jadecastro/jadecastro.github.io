@@ -186,9 +186,10 @@ var bibtexs = new Array(
       "author = {Christoforos Mavrogiannis and Jonathan A DeCastro and Siddhartha S Srinivasa},",
       "title ={Abstracting road traffic via topological braids: Applications to traffic flow analysis and distributed control},",
       "journal = {The International Journal of Robotics Research},",
-      "volume = {0},",
-      "number = {0},",
-      "year = {2023},",
+      "volume = {43},",
+      "number = {9},",
+      "pages = {1299--1321},",
+      "year = {2024},",
       "doi = {10.1177/02783649231188740},",
       "URL = {https://doi.org/10.1177/02783649231188740},",
       "}"
